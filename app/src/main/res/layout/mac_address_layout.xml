@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/focus_sump"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
+
+    <EditText
+        android:id="@+id/octet1"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:hint="00" />
+
+    <TextView
+        android:id="@+id/colon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/octet1"
+        android:text=":" />
+
+    <EditText
+        android:id="@+id/octet2"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/colon1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="00"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/colon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/octet2"
+        android:layout_centerVertical="true"
+        android:text=":" />
+
+    <EditText
+        android:id="@+id/octet3"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/colon2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="00"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/colon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/octet3"
+        android:layout_centerVertical="true"
+        android:text=":" />
+
+    <EditText
+        android:id="@+id/octet4"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/colon3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="00"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/colon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/octet4"
+        android:layout_centerVertical="true"
+        android:text=":" />
+
+    <EditText
+        android:id="@+id/octet5"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/colon4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="00"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/colon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/octet5"
+        android:layout_centerVertical="true"
+        android:text=":" />
+
+    <EditText
+        android:id="@+id/octet6"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/colon5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="00"
+        android:gravity="center_horizontal"/>
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/delete_icon" />
+
+</RelativeLayout>
